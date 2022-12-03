@@ -12,5 +12,18 @@
   },
   "dependencies": {
     "astro": "^1.6.12"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bleeping-Dragon/Bleeping-Dragon-Astro-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bleeping-Dragon/Bleeping-Dragon-Astro-Web/issues"
+  },
+  "homepage": "https://github.com/Bleeping-Dragon/Bleeping-Dragon-Astro-Web#readme"
 }
