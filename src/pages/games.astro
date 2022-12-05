@@ -33,7 +33,7 @@ const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
 	<body>
 		<Nav />
 		<div class="wrapper">
-			<h1 class="title">All Posts</h1>
+			<h1 class="title">All Games</h1>
 			<div class="grid">
 				{games.map((project) => <PortfolioPreview project={project} />)}
 			</div>
