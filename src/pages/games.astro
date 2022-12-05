@@ -5,7 +5,7 @@ import Nav from '../components/Nav.astro';
 import PortfolioPreview from '../components/GamePreview.astro';
 import type { Game } from '../types';
 
-const games = (await Astro.glob<Game>('./project/**/*.md'))
+const games = (await Astro.glob<Game>('./markdown/game/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>

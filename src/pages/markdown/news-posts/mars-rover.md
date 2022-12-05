@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../layouts/news-post.astro
 title: New TEST
 client: Self
 publishDate: 2020-03-02 00:00:00

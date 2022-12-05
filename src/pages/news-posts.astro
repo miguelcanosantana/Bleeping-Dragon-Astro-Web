@@ -5,7 +5,7 @@ import Nav from '../components/Nav.astro';
 import PortfolioPreview from '../components/NewPostPreview.astro';
 import type { NewsPost } from '../types';
 
-const news = (await Astro.glob<NewsPost>('./project/**/*.md'))
+const news = (await Astro.glob<NewsPost>('./markdown/news-posts/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>

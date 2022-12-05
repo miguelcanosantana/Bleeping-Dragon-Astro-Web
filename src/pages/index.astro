@@ -5,11 +5,10 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import PortfolioPreview from '../components/NewPostPreview.astro';
 import type { NewsPost } from '../types';
-import NewsPosts from './news-posts.astro';
 
 // Data Fetching: List all Markdown posts in the repo.
-const projects = await Astro.glob<NewsPost>('./project/**/*.md');
-const featuredNewsPost = projects[0]!;
+const posts = await Astro.glob<NewsPost>('./markdown/news-posts/**/*.md');
+const featuredNewsPost = posts[0]!;
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
