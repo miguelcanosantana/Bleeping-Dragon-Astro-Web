@@ -3,9 +3,9 @@ import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
-import type { Project } from '../types';
+import type { NewsPost } from '../types';
 
-const projects = (await Astro.glob<Project>('./project/**/*.md'))
+const projects = (await Astro.glob<NewsPost>('./project/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>
