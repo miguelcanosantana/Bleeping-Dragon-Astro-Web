@@ -2,10 +2,10 @@
 import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
-import PortfolioPreview from '../components/NewPostPreview.astro';
-import type { NewsPost } from '../types';
+import PortfolioPreview from '../components/GamePreview.astro';
+import type { Game } from '../types';
 
-const news = (await Astro.glob<NewsPost>('./project/**/*.md'))
+const games = (await Astro.glob<Game>('./project/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>
@@ -35,7 +35,7 @@ const news = (await Astro.glob<NewsPost>('./project/**/*.md'))
 		<div class="wrapper">
 			<h1 class="title">All Posts</h1>
 			<div class="grid">
-				{news.map((project) => <PortfolioPreview project={project} />)}
+				{games.map((project) => <PortfolioPreview project={project} />)}
 			</div>
 		</div>
 		<Footer />

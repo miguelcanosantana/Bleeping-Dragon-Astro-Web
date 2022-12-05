@@ -1,9 +1,9 @@
 ---
 import type { MarkdownInstance } from 'astro';
-import type { Project } from '../types';
+import type { Game } from '../types';
 
 interface Props {
-	project: MarkdownInstance<Project>;
+	project: MarkdownInstance<Game>;
 }
 
 const { frontmatter, url } = Astro.props.project;
@@ -16,9 +16,10 @@ const { frontmatter, url } = Astro.props.project;
 	<div class="descCard">
 		<p class="desc">{frontmatter.description}</p>
 		<div class="tags">
-			Tags:
+			Platforms:
 			{
-				frontmatter.tags.map((t) => (
+				//Add ? to avoid errors if platforms is null
+				frontmatter.platforms?.map((t) => (
 					<div class="tag" data-tag={t}>
 						{t}
 					</div>

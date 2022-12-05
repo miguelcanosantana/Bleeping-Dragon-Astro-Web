@@ -6,3 +6,11 @@ export interface NewsPost {
 	tags: string[];
 	img: string;
 }
+
+export interface Game {
+	title: string;
+	description: string;
+	publishDate: string;
+	platforms: string[];
+	img: string;
+}
