@@ -10,6 +10,36 @@
 	--c-yellow: #ffdace;
 	--c-white: #fff;
 
+	/* HSL Colors with tones */
+	/* https://www.w3schools.com/colors/colors_hsl.asp */ 
+	--primary: 230;
+	--secondary: 335;
+	--tertiary: 54;
+
+	--c-primary-15: hsl(var(--primary), 60%, 15%);
+	--c-primary-25: hsl(var(--primary), 60%, 25%);
+	--c-primary-50: hsl(var(--primary), 50%, 50%);
+	--c-primary-75: hsl(var(--primary), 70%, 75%);
+	--c-primary-85: hsl(var(--primary), 70%, 85%);
+
+	--c-secondary-15: hsl(var(--secondary), 60%, 15%);
+	--c-secondary-25: hsl(var(--secondary), 60%, 25%);
+	--c-secondary-50: hsl(var(--secondary), 50%, 50%);
+	--c-secondary-75: hsl(var(--secondary), 70%, 75%);
+	--c-secondary-85: hsl(var(--secondary), 70%, 85%);
+
+	--c-tertiary-15: hsl(var(--tertiary), 60%, 15%);
+	--c-tertiary-25: hsl(var(--tertiary), 60%, 25%);
+	--c-tertiary-50: hsl(var(--tertiary), 50%, 50%);
+	--c-tertiary-75: hsl(var(--tertiary), 70%, 75%);
+	--c-tertiary-85: hsl(var(--tertiary), 70%, 85%);
+
+	--c-gray-15: hsl(0, 0%, 15%);
+	--c-gray-25: hsl(0, 0%, 25%);
+	--c-gray-50: hsl(0, 0%, 50%);
+	--c-gray-75: hsl(0, 0%, 75%);
+	--c-gray-85: hsl(0, 0%, 85%);
+
 	/* Fonts */
 	--f-u18: 11.390625em;
 	--f-u17: 9.950627481136905em;
