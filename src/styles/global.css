@@ -16,12 +16,14 @@
 	--secondary: 335;
 	--tertiary: 54;
 
+	--c-primary-8: hsl(var(--primary), 60%, 8%);
 	--c-primary-15: hsl(var(--primary), 60%, 15%);
 	--c-primary-25: hsl(var(--primary), 60%, 25%);
 	--c-primary-50: hsl(var(--primary), 50%, 50%);
 	--c-primary-75: hsl(var(--primary), 70%, 75%);
 	--c-primary-85: hsl(var(--primary), 70%, 85%);
 
+	--c-secondary-8: hsl(var(--secondary), 60%, 8%);
 	--c-secondary-15: hsl(var(--secondary), 60%, 15%);
 	--c-secondary-25: hsl(var(--secondary), 60%, 25%);
 	--c-secondary-50: hsl(var(--secondary), 50%, 50%);
@@ -86,7 +88,8 @@
 
 body {
 	margin: 0;
-	color: var(--t-fg);
+	color: var(--c-primary-85);
+	background-color: var(--c-primary-8);
 	font-family: 'Inter', 'system-ui', sans-serif;
 }
 
@@ -100,7 +103,13 @@ img {
 }
 
 a {
-	color: var(--t-active);
+	color: var(--c-secondary-75);
+	transition: color linear 100ms
+}
+
+a:hover {
+	color: var(--c-secondary-85);
+	transition: color linear 100ms
 }
 
 h1 {
