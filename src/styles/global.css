@@ -12,8 +12,8 @@
 
 	/* HSL Colors with tones */
 	/* https://www.w3schools.com/colors/colors_hsl.asp */ 
-	--primary: 230;
-	--secondary: 335;
+	--primary: 293;
+	--secondary: 133;
 	--tertiary: 54;
 
 	--c-primary-8: hsl(var(--primary), 60%, 8%);
