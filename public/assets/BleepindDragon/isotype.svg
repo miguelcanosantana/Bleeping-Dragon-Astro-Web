@@ -10,7 +10,7 @@
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="isotype.svg"
    xml:space="preserve"
-   inkscape:export-filename="simple-logo-render-small-no-outline.png"
+   inkscape:export-filename="isotype-small.png"
    inkscape:export-xdpi="15.6"
    inkscape:export-ydpi="15.6"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,8 +29,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="419.66787"
-     inkscape:cy="259.50819"
+     inkscape:cx="395.62623"
+     inkscape:cy="260.21529"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -685,7 +685,7 @@
          in="fbSourceGraphic" /></filter></defs><g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Body"
+     inkscape:label="Logo-light"
      style="display:inline;stroke:#000000;stroke-opacity:1"
      transform="translate(-100.71432,-60.869689)"><path
        id="path340"
