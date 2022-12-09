@@ -8,9 +8,9 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="isotype.svg"
+   sodipodi:docname="company-logos.svg"
    xml:space="preserve"
-   inkscape:export-filename="isotype-small.png"
+   inkscape:export-filename="dark-small.png"
    inkscape:export-xdpi="15.6"
    inkscape:export-ydpi="15.6"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,8 +29,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="145.31044"
-     inkscape:cy="188.0904"
+     inkscape:cx="119.8546"
+     inkscape:cy="188.79751"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -87,10 +87,10 @@
        background_color="#ffffffff" /><linearGradient
        inkscape:collect="always"
        id="linearGradient9919"><stop
-         style="stop-color:#a946e5;stop-opacity:1;"
+         style="stop-color:#b872eb;stop-opacity:1;"
          offset="0.37643677"
          id="stop9917" /><stop
-         style="stop-color:#ff60c6;stop-opacity:1;"
+         style="stop-color:#ff6ec9;stop-opacity:1;"
          offset="1"
          id="stop9915" /></linearGradient><linearGradient
        id="linearGradient1080"><stop
@@ -749,7 +749,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="IsotypeDarkBackground"
-     style="display:inline;stroke:#000000;stroke-opacity:1"
+     style="display:none;stroke:#000000;stroke-opacity:1"
      transform="translate(-100.71432,-60.869689)"><path
        id="path340"
        style="display:inline;fill:#3a107c;stroke:#e1d1f9;stroke-width:2.64585;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;paint-order:stroke fill markers"
