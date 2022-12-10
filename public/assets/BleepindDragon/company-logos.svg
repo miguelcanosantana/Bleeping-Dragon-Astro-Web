@@ -29,8 +29,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="203.29319"
-     inkscape:cy="188.0904"
+     inkscape:cx="179.25156"
+     inkscape:cy="188.79751"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -846,7 +846,8 @@
        inkscape:label="TongueFill" /></g><g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="Text"><text
+     inkscape:label="Text"
+     style="display:none"><text
        xml:space="preserve"
        style="font-weight:bold;font-size:19.0501px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;display:inline;fill:#e1d1f9;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        x="57.059471"
