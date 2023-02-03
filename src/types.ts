@@ -14,3 +14,12 @@ export interface Game {
 	platforms: string[];
 	img: string;
 }
+
+
+export interface App {
+	title: string;
+	description: string;
+	publishDate: string;
+	platforms: string[];
+	img: string;
+}
