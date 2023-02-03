@@ -3,7 +3,8 @@
 import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
-import PortfolioPreview from '../components/GamePreview.astro';
+import GamePreview from '../components/GamePreview.astro';
+import AppPreview from '../components/AppPreview.astro';
 import type { App, Game } from '../types';
 
 const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
@@ -38,20 +39,21 @@ const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
 			}
 		</style>
 	</head>
+	
 	<body>
 		<Nav />
 
 		<div class="wrapper">
 			<h1 class="title">Games</h1>
 			<div class="grid">
-				{games.map((project) => <PortfolioPreview project={project} />)}
+				{games.map((project) => <GamePreview project={project}/>)}
 			</div>
 		</div>
 
 		<div class="wrapper">
 			<h1 class="title">Apps</h1>
 			<div class="grid">
-				{apps.map((project) => <PortfolioPreview project={project} />)}
+				{apps.map((project) => <AppPreview project={project}/>)}
 			</div>
 		</div>
 
