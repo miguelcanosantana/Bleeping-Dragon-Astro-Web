@@ -1,5 +1,5 @@
 ---
-layout: "../../../layouts/game.astro"
+layout: "../../../layouts/app.astro"
 title: App
 client: Self
 publishDate: 2020-03-02 00:00:00
