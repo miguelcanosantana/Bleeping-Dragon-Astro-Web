@@ -32,6 +32,8 @@ const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
 			.grid {
 				display: grid;
 				grid-gap: 2rem;
+				grid-auto-rows: minmax(100px, auto);
+				grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 			}
 			.title {
 				margin-top: 2rem;
@@ -47,7 +49,7 @@ const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
 		<div class="wrapper">
 			<h1 class="title">Games</h1>
 			<div class="grid">
-				{games.map((project) => <GamePreview project={project}/>)}
+				{apps.map((project) => <GamePreview project={project}/>)}
 			</div>
 		</div>
 
