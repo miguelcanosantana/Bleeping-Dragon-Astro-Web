@@ -40,6 +40,8 @@ const { frontmatter, url } = Astro.props.project;
 		border: 2px solid var(--c-primary-25);
 		border-radius: 10px;
 		overflow: hidden;
+		min-width: 400px;
+		max-width: 400px;
 	}
 
 	.title {
@@ -63,7 +65,8 @@ const { frontmatter, url } = Astro.props.project;
 		position: relative;
 		background-size: cover;
 		background-position: 50% 100%;
-		padding-top: 37.5%;
+		min-height: 300px;
+		max-height: 300px;
 	}
 
 	.descCard {
