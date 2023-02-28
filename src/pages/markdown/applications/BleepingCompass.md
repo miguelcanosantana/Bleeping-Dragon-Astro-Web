@@ -3,13 +3,11 @@ layout: "../../../layouts/app.astro"
 title: Bleeping Compass
 client: Self
 publishDate: 2023-28-02 21:24:00
-img: /assets/Compass/header.png
+img: /assets/Compass/logo.png
 description: |
   A simple compass app.
-tags:
-  - news
+platforms:
   - android
-  - kotlin
 ---
 
 # 📲App Overview
