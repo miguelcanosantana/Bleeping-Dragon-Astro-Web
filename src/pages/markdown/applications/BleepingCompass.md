@@ -18,9 +18,9 @@ The **Bleeping Compass** app consists on a compass app built with two main princ
 
 Using the new Material You design language approach, the users experience a clean and simple interface that adapts to their phone, starting in Android 12 the wallpaper theme is used to generate the color palette of the app.
 
-<img src="/assets/Compass/image1.png" alt="An image capture of the main part of the app showing the compass." width=49.5% height=49.5%>
+<img src="/assets/Compass/image1.png" alt="An image capture of the main part of the app showing the compass." width=49% height=49%>
 
-<img src="/assets/Compass/image2.png" alt="An image capture of the main part of the app showing the compass." width=49.5% height=49.5%>
+<img src="/assets/Compass/image2.png" alt="An image capture of the main part of the app showing the compass." width=49% height=49%>
 
 The left image shows the main part of the app, a simple compass, just rotate your device to see where the "N" (the North pole) faces. Other letters are for the rest of poles.
 
