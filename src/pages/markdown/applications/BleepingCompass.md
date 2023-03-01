@@ -10,7 +10,7 @@ platforms:
   - android
 ---
 
-# 📲App Overview
+## 📲 App Overview
 The **Bleeping Compass** app consists on a compass app built with two main principles in mind:
 
 - Simplicity
@@ -34,11 +34,11 @@ Inside the settings there are 2 main toggles:
 
 Lastly there is this brand logo and a link to the site.
 
-# 🔏Privacy
+## 🔏 Privacy
 The only data collected is an anonymous identifier for the google ads service processed by them.
 Meaning the app will NOT collect, send or sell any data from the users to any private servers.
 
-# 🛠️Tools
+## 🛠️ Tools
 For making this project possible and developing in native android, some tools have been used:
 
 - **Android Studio:** The development environment 
@@ -46,7 +46,7 @@ For making this project possible and developing in native android, some tools ha
 - **MDC-Android:** The material design components library specifically for XML
 - **Inkscape:** For designing the compass graphics and app's icons. 
 
-# 😊Thanks for reading
+## 😊 Thanks for reading
 Hope you like this app and if you find it useful, feel free to share it with your relatives :)
 
 This article will be modified to include the Play Store link once the app is finally launched.
