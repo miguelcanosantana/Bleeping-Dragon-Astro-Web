@@ -8,6 +8,7 @@ description: |
   A simple compass app.
 platforms:
   - android
+googlePlayLink: https://play.google.com/store/apps/details?id=com.bleepingdragon.compass
 ---
 
 ## 📲 App Overview
@@ -48,5 +49,3 @@ For making this project possible and developing in native android, some tools ha
 
 ## 😊 Thanks for reading
 Hope you like this app and if you find it useful, feel free to share it with your relatives :)
-
-This article will be modified to include the Play Store link once the app is finally launched.

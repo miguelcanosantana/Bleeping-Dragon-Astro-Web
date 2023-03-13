@@ -22,4 +22,5 @@ export interface App {
 	publishDate: string;
 	platforms: string[];
 	img: string;
+	googlePlayLink?: string;
 }
