@@ -144,4 +144,18 @@ const { frontmatter, url } = Astro.props.project;
 	.tag:nth-of-type(4n) {
 		color: var(--c-pink);
 	}
+
+	@media screen and (max-width: 380px) {
+
+		.card {
+			max-width: calc(100vw - 65px);
+		}
+
+		.titleCard {
+			min-height: calc(100vw - 65px);
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	}
+
 </style>
