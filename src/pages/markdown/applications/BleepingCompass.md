@@ -2,7 +2,7 @@
 layout: "../../../layouts/app.astro"
 title: Bleeping Compass
 client: Self
-publishDate: 2023-28-02 21:24:00
+publishDate: 2023-13-03 15:50:00
 img: /assets/Compass/logo.png
 description: |
   A simple compass app.
