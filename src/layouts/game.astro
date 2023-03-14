@@ -3,7 +3,6 @@ import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
 import type { Game } from '../types';
-import Comments from '../components/Comments.svelte';
 
 interface Props {
 	content: Game;
@@ -102,11 +101,9 @@ const { content } = Astro.props;
 		<div class="wrapper">
 			<div class="content"><slot /></div>
 		</div>
-		<Comments client:visible></Comments>
-		<br>
 		<footer>
-			<a href="/" class="button">Go back to home</a>
+			<a href="/" class="button">View more</a>
 		</footer>
-		<Footer/>
+		<Footer />
 	</body>
 </html>
