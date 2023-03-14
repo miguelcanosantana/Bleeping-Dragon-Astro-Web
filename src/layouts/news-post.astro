@@ -3,6 +3,7 @@ import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
 import type { NewsPost } from '../types';
+import GiscusComments from '../components/GiscusComments.astro';
 
 interface Props {
 	content: NewsPost;
@@ -101,9 +102,14 @@ const { content } = Astro.props;
 		<div class="wrapper">
 			<div class="content"><slot /></div>
 		</div>
+
+		<GiscusComments></GiscusComments>
+
 		<footer>
-			<a href="/news-posts/" class="button">Read other posts</a>
+			<a href="/news-posts/" class="button">Read other news</a>
 		</footer>
-		<Footer />
+
+		<Footer/>
+
 	</body>
 </html>

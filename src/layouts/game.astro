@@ -3,6 +3,7 @@ import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
 import type { Game } from '../types';
+import GiscusComments from '../components/GiscusComments.astro';
 
 interface Props {
 	content: Game;
@@ -101,9 +102,13 @@ const { content } = Astro.props;
 		<div class="wrapper">
 			<div class="content"><slot /></div>
 		</div>
+		
+		<GiscusComments></GiscusComments>
+
 		<footer>
-			<a href="/" class="button">View more</a>
+			<a href="/news-posts/" class="button">Go to start</a>
 		</footer>
-		<Footer />
+
+		<Footer/>
 	</body>
 </html>
