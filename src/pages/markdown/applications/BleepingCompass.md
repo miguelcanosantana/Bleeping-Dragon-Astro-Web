@@ -36,8 +36,8 @@ Inside the settings there are 2 main toggles:
 Lastly there is this brand logo and a link to the site.
 
 ## 🔏 Privacy
-The only data collected is an anonymous identifier for the google ads service processed by them.
-Meaning the app will NOT collect, send or sell any data from the users to any private servers.
+The Privacy Policy has been moved to a new page
+[Privacy Policy](/markdown/news-posts/Privacy_Bleeping_Compass)
 
 ## 🛠️ Tools
 For making this project possible and developing in native android, some tools have been used:
