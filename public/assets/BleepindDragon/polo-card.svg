@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="9cm"
-   height="5.5cm"
-   viewBox="0 0 90 55"
+   width="12cm"
+   height="7.5cm"
+   viewBox="0 0 120 75"
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
@@ -28,15 +28,15 @@
      inkscape:deskcolor="#2c2c2c"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3825878"
-     inkscape:cx="67.988449"
-     inkscape:cy="129.82901"
+     inkscape:zoom="0.9983453"
+     inkscape:cx="179.79751"
+     inkscape:cy="167.77762"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4" /><defs
+     inkscape:current-layer="layer1" /><defs
      id="defs2"><inkscape:path-effect
        effect="pts2ellipse"
        id="path-effect2505"
@@ -1398,7 +1398,7 @@
        x2="105.98227"
        y2="52.917"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-105.834)" /><mask
+       gradientTransform="matrix(0.53410403,0,0,0.84987981,-56.010937,-0.07219189)" /><mask
        maskUnits="userSpaceOnUse"
        id="mask-powermask-path-effect1914-0"><path
          id="mask-powermask-path-effect1914-0_box"
@@ -1465,19 +1465,23 @@
        spreadMethod="pad" /></defs><g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Background 1"><rect
-       style="display:inline;fill:url(#linearGradient1276);fill-opacity:1;stroke-width:0.275397"
+     inkscape:label="Background 1"
+     transform="matrix(1.3348882,0,0,1.3348882,0,0.34458719)"><rect
+       style="display:inline;fill:url(#linearGradient1276);fill-opacity:1;stroke-width:0.185546"
        id="rect269"
-       width="106.13055"
-       height="106.13055"
-       x="-105.98228"
-       y="-0.14827329"
+       width="56.684753"
+       height="90.198204"
+       x="-56.090134"
+       y="-0.19820637"
        ry="0"
-       transform="matrix(0,-0.51822969,0.84801223,0,0.12573756,0.07683773)" /></g><g
-     inkscape:label="Logo"
+       transform="rotate(-90)" /></g><g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="PoloLogo" /><g
+     inkscape:label="BleepingLogo"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-2.334341)"><image
+     transform="matrix(1.3348882,0,0,1.3348882,0,-2.7714968)"><image
        width="90.476997"
        height="85.80674"
        preserveAspectRatio="none"
@@ -1588,7 +1592,7 @@
      id="layer3"
      inkscape:label="QR"
      style="display:inline"
-     transform="matrix(1.2670317,0,0,1.2670317,20.712691,20.571346)"><g
+     transform="matrix(1.6913456,0,0,1.6913456,27.649126,27.805032)"><g
        id="g3526"
        transform="matrix(0.02009465,0,0,0.02009465,28.750917,1.3415899)"
        style="display:inline"><rect
@@ -4215,7 +4219,8 @@
 </g></g></g></g></g><g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Text"><text
+     inkscape:label="Text"
+     transform="matrix(1.3348882,0,0,1.3348882,0,0.34458719)"><text
        xml:space="preserve"
        style="font-size:7.3738px;text-align:center;text-anchor:middle;fill:#d1a8d7;fill-opacity:1;stroke:none;stroke-width:1.30701;stroke-dasharray:1.30701, 1.30701;stroke-dashoffset:0;stroke-opacity:0.401662;paint-order:normal"
        x="25.293266"
@@ -4233,7 +4238,8 @@
          id="tspan6315">DRAGON</tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Hole"><rect
+     inkscape:label="Hole"
+     transform="matrix(1.3348882,0,0,1.3348882,0,0.34458719)"><rect
        style="fill:none;fill-opacity:0.703601;stroke:#000000;stroke-width:0.267;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.401662;paint-order:normal"
        id="rect2538"
        width="38.702686"
