@@ -7,6 +7,10 @@ export interface NewsPost {
 	img: string;
 }
 
+export interface PrivacyPolicy {
+	name: string;
+}
+
 export interface Game {
 	title: string;
 	description: string;
@@ -14,7 +18,6 @@ export interface Game {
 	platforms: string[];
 	img: string;
 }
-
 
 export interface App {
 	title: string;

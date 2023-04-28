@@ -1,0 +1,44 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+import PortfolioPreview from '../components/NewPostPreview.astro';
+import type {PrivacyPolicy } from '../types';
+import PrivacyPreview from '../components/PrivacyPreview.astro';
+
+const news = (await Astro.glob<PrivacyPolicy>('./markdown/privacy-policies/**/*.md'))
+	.filter(({ frontmatter }) => !!frontmatter.name)
+	.sort(
+		(a, b) =>
+			new Date(b.frontmatter.name).valueOf() - new Date(a.frontmatter.name).valueOf()
+	);
+---
+
+<html lang="en">
+	<head>
+		<MainHead
+			title="Privacy | Bleeping Dragon"
+			description="Learn about Bleeping Dragon's privacy policies"
+		/>
+		<style>
+			.grid {
+				display: grid;
+				grid-gap: 3rem;
+			}
+			.title {
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1 class="title">Privacy Policies</h1>
+			<div class="grid">
+				{news.map((project) => <PrivacyPreview project={project} />)}
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>

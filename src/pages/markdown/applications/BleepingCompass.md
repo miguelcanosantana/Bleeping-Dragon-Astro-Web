@@ -37,7 +37,7 @@ Lastly there is this brand logo and a link to the site.
 
 ## 🔏 Privacy
 The Privacy Policy has been moved to a new page
-[Privacy Policy](/markdown/news-posts/Privacy_Bleeping_Compass)
+[Privacy Policy](/markdown/privacy-policies/BleepingCompass)
 
 ## 🛠️ Tools
 For making this project possible and developing in native android, some tools have been used:
