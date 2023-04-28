@@ -16,7 +16,7 @@ const news = (await Astro.glob<NewsPost>('./markdown/news-posts/**/*.md'))
 <html lang="en">
 	<head>
 		<MainHead
-			title="All Posts | Bleeping Dragon"
+			title="Archived | Bleeping Dragon"
 			description="Learn about Bleeping Dragon's most recent projects"
 		/>
 		<style>
@@ -33,7 +33,7 @@ const news = (await Astro.glob<NewsPost>('./markdown/news-posts/**/*.md'))
 	<body>
 		<Nav />
 		<div class="wrapper">
-			<h1 class="title">All Posts</h1>
+			<h1 class="title">Archived</h1>
 			<div class="grid">
 				{news.map((project) => <PortfolioPreview project={project} />)}
 			</div>
