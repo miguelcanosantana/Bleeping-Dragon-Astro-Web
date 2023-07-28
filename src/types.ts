@@ -13,10 +13,12 @@ export interface PrivacyPolicy {
 
 export interface Game {
 	title: string;
+	extraLogo?: string;
 	description: string;
 	publishDate: string;
 	platforms: string[];
 	img: string;
+	robloxLink?: string;
 }
 
 export interface App {

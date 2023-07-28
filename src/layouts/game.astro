@@ -27,7 +27,7 @@ const { content } = Astro.props;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color: rgba(0, 0, 0, 0.2);
 				background-blend-mode: multiply;
 			}
 
@@ -86,17 +86,32 @@ const { content } = Astro.props;
 				text-align: center;
 				margin-top: 3rem;
 			}
+
+			#extraLogo {
+				max-height: 300px;
+			}
+
 		</style>
 	</head>
 	<body>
 		<Nav />
 		<header style={`background-image:url(${content.img})`} class="hero">
-			<h1 class="title">{content.title}</h1>
 		</header>
 		<div class="leadIn">
 			<div class="wrapper">
+
+				<!-- <h1 class="title">{content.title}</h1> -->
+				<img id="extraLogo" src={content.extraLogo} alt="Game logotype">
+				<br>
 				{content.platforms?.map((t) => <span class="tag">{t}</span>)}
 				<h3 class="tagline">{content.description}</h3>
+				<br>
+				<br>
+				<!-- Roblox Button, hide if there's no url with ternary operator -->
+				<a href = {content.robloxLink} target="_blank" style = {content.robloxLink? ' ':'display:none'}>
+					<img style="width:234px;margin-top:-30px;" alt='Play on Roblox' src='/public/assets/Badges/RobloxBadge.png'/>
+				</a>
+
 			</div>
 		</div>
 		<div class="wrapper">
