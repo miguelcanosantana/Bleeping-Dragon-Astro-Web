@@ -7,14 +7,14 @@ import GamePreview from '../components/GamePreview.astro';
 import AppPreview from '../components/AppPreview.astro';
 import type { App, Game } from '../types';
 
-const games = (await Astro.glob<Game>('./markdown/games/**/*.md'))
+const games = (await Astro.glob('./markdown/games/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>
 			new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
 	);
 
-	const apps = (await Astro.glob<App>('./markdown/applications/**/*.md'))
+	const apps = (await Astro.glob('./markdown/applications/**/*.md'))
 	.filter(({ frontmatter }) => !!frontmatter.publishDate)
 	.sort(
 		(a, b) =>
